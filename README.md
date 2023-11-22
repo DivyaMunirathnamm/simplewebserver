@@ -34,7 +34,7 @@ Testing the webserver.
 <h2>5. XML </h2>
 </body>
 </html>
-'''
+
 
 
 class MyServer(BaseHTTPRequestHandler):
@@ -50,6 +50,7 @@ print("This is my webserver")
 server_address =('',80)
 httpd = HTTPServer(server_address,MyServer)
 httpd.serve_forever()
+```
 
 ### Output:
 ![Screenshot from 2023-11-22 18-52-36](https://github.com/DivyaMunirathnamm/simplewebserver/assets/147474097/1f52f5e6-a5c1-4c4c-8516-5065dfa899ae)
