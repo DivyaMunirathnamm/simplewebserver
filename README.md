@@ -3,7 +3,6 @@
 ## AIM:
 To develop a simple webserver to serve html pages.
 
-## DESIGN STEPS:
 ### Step 1: 
 HTML content creation.
 
@@ -53,9 +52,8 @@ httpd = HTTPServer(server_address,MyServer)
 httpd.serve_forever()
 
 ### Output:
-![velumesstrt](https://github.com/DivyaMunirathnamm/simplewebserver/assets/147474097/3312c857-716b-4e8f-a533-95c30ed152cb)
+![Screenshot from 2023-11-22 18-52-36](https://github.com/DivyaMunirathnamm/simplewebserver/assets/147474097/1f52f5e6-a5c1-4c4c-8516-5065dfa899ae)
 
-![Screenshot from 2023-11-22 18-52-36](https://github.com/DivyaMunirathnamm/simplewebserver/assets/147474097/aa52585e-b819-4bc7-ad76-35462e1807d3)
 
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
