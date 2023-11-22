@@ -1,4 +1,4 @@
-# EX01 Developing a Simple Webserver
+## EX01 Developing a Simple Webserver
 
 ## AIM:
 To develop a simple webserver to serve html pages.
@@ -52,7 +52,8 @@ server_address =('',80)
 httpd = HTTPServer(server_address,MyServer)
 httpd.serve_forever()
 
-## OUTPUT:
+### Output:
+![velumesstrt](https://github.com/DivyaMunirathnamm/simplewebserver/assets/147474097/3312c857-716b-4e8f-a533-95c30ed152cb)
 
 ![Screenshot from 2023-11-22 18-52-36](https://github.com/DivyaMunirathnamm/simplewebserver/assets/147474097/aa52585e-b819-4bc7-ad76-35462e1807d3)
 
